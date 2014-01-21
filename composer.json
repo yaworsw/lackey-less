@@ -11,7 +11,7 @@
     "leafo/lessphp":              "*"
   },
   "require-dev": {
-    "lackey/lackey":              "~0.1",
+    "lackey/lackey":              "dev-master",
     "phpunit/phpunit":            "3.7.*",
     "phpunit/php-code-coverage":  "*"
   },

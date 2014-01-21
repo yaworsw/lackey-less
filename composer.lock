@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "a9faff7bf46ee4c642cc03997c98be64",
+    "hash": "7c84aad91bd28a55b454d7ac9f4e2be0",
     "packages": [
         {
             "name": "leafo/lessphp",
@@ -100,16 +100,16 @@
         },
         {
             "name": "lackey/lackey",
-            "version": "0.1.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yaworsw/lackey.git",
-                "reference": "e076ead90b96839428360cbe9e21921dda5d8120"
+                "reference": "be7fa3883639fab27cda5fbe05ef037896ec03dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yaworsw/lackey/zipball/e076ead90b96839428360cbe9e21921dda5d8120",
-                "reference": "e076ead90b96839428360cbe9e21921dda5d8120",
+                "url": "https://api.github.com/repos/yaworsw/lackey/zipball/be7fa3883639fab27cda5fbe05ef037896ec03dc",
+                "reference": "be7fa3883639fab27cda5fbe05ef037896ec03dc",
                 "shasum": ""
             },
             "require": {
@@ -146,7 +146,7 @@
                 "build",
                 "task"
             ],
-            "time": "2014-01-04 23:58:16"
+            "time": "2014-01-21 01:44:54"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -567,9 +567,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "lackey/lackey": 20
+    },
     "platform": [
 
     ],
