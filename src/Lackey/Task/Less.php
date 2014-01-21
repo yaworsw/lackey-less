@@ -41,6 +41,6 @@ class Less extends AbstractTask
             $lc->compileFile($src, $dest);
         }
 
-        return 0;
+        return new Less\Result($files, false);
     }
 }
