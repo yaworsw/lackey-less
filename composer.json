@@ -1,0 +1,24 @@
+{
+  "name": "yaworsw/lackey",
+  "version": "0.1.0",
+  "description": "Less plugin for lackey",
+  "keywords": [
+    "less",
+    "build",
+    "css"
+  ],
+  "require": {
+    "leafo/lessphp":              "*"
+  },
+  "require-dev": {
+    "lackey/lackey":              "~0.1",
+    "phpunit/phpunit":            "3.7.*",
+    "phpunit/php-code-coverage":  "*"
+  },
+  "autoload": {
+    "psr-0": {
+      "Lackey\\": "src"
+    }
+  }
+}
+
