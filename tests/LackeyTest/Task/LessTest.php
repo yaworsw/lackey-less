@@ -11,7 +11,7 @@ class LessTest extends AbstractTestCase
     public function testCompile()
     {
         $dest = __DIR__ . '/_files/test.css';
-        $src  = __DIR__ . '/_files/test.less';
+        $src  = __DIR__ . '/_files/compile.less';
 
         $task = new Less();
         $result = $task->run(array(
@@ -25,5 +25,25 @@ class LessTest extends AbstractTestCase
         $this->assertFileExists($dest);
 
         unlink($dest);
+    }
+
+    public function testThrowsExceptionWhenSrcNotFound()
+    {
+        $this->setExpectedException('\\Exception');
+
+        $dest = __DIR__ . '/_files/test2.css';
+        $src  = __DIR__ . '/_files/404_file_not_found.less';
+
+        $task = new Less();
+        $result = $task->run(array(
+            'files' => array(
+                $dest => $src,
+            ),
+            'options' => array(
+                'paths' => __DIR__ . '/_files/inc',
+            ),
+        ));
+
+        $this->assertFalse(is_file($dest));
     }
 }
