@@ -104,12 +104,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yaworsw/lackey.git",
-                "reference": "be7fa3883639fab27cda5fbe05ef037896ec03dc"
+                "reference": "1bff4b450fdef0f6fbea2177bfaabde290d08523"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yaworsw/lackey/zipball/be7fa3883639fab27cda5fbe05ef037896ec03dc",
-                "reference": "be7fa3883639fab27cda5fbe05ef037896ec03dc",
+                "url": "https://api.github.com/repos/yaworsw/lackey/zipball/1bff4b450fdef0f6fbea2177bfaabde290d08523",
+                "reference": "1bff4b450fdef0f6fbea2177bfaabde290d08523",
                 "shasum": ""
             },
             "require": {
@@ -146,7 +146,7 @@
                 "build",
                 "task"
             ],
-            "time": "2014-01-21 01:44:54"
+            "time": "2014-01-22 00:03:38"
         },
         {
             "name": "phpunit/php-code-coverage",
