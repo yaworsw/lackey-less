@@ -12,7 +12,7 @@ class Result implements Task\ResultInterface
     public function __construct(array $sourceMap = array(), $error = false)
     {
         $this->sourceMap = $sourceMap;
-        $this->error     = boolval($error);
+        $this->error     = !!$error;
     }
 
     public function getStatus()
